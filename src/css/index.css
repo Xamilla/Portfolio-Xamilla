@@ -147,7 +147,7 @@ p {
                 .section__text p{
                     font-weight: 600;
                 }
-                .sectio__text__p1{
+                .section__text__p1{
                     text-align: center;
                 }
                 .sectio__text__p2{
@@ -207,4 +207,30 @@ p {
                             }
                                 .btn-container{
                                     gap:1rem;
+                                }
+                                /* end of the profile section */
+                                
+                                /* about section */
+                                #about{
+                                    position: relative;
+                                }
+                                .about-container{
+                                    gap:2rem;
+                                    margin-bottom: 2rem;
+                                    margin-top: 2 rem;
+                                }
+                                .about-details-container{
+                                    justify-content: center;
+                                    flex-direction: column;
+                                }
+                                .about-container, .about-details-container{
+                                    display: flex;
+                                }
+                                .about-pic{
+                                    border-radius: 2rem;
+                                }
+                                .arrow{
+                                    position: absolute;
+                                    right:1rem;
+                                    bottom :2.5rem;
                                 }
