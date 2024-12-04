@@ -284,3 +284,24 @@ p {
                                 article .icon{
                                     cursor:default;
                                 }
+                                /* projrct section  */
+                                #project{
+                                    position: relative;
+                                }
+                                .color-containers{
+                                    border:rgb(163, 163,163);
+                                    background-color: rgb(250,250,250);
+                                }
+                                .project-img{
+                                    border:2rem;
+                                    width: 90%;
+                                    height: 90%;
+                                }
+                                .project-title{
+                                    margin:1rem;
+                                    color:balck;
+                                }
+                                .project-btn{
+                                    color:black;
+                                    border-color:rgb(163, 163,163);                                    
+                                }
