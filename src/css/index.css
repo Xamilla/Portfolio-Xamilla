@@ -294,12 +294,12 @@ p {
                                 }
                                 .project-img{
                                     border:2rem;
-                                    width: 90%;
-                                    height: 90%;
+                                    width: 50%;
+                                    height: 40%;
                                 }
                                 .project-title{
                                     margin:1rem;
-                                    color:balck;
+                                    color:black;
                                 }
                                 .project-btn{
                                     color:black;
