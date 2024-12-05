@@ -339,3 +339,116 @@ p {
                                 .email-icon{
                                     height: 1.9rem;
                                 }
+                                /* footer section  */
+                                .footer {
+                                    background-color: #734d26;
+                                    color: #fff;
+                                    padding: 40px;
+                                    font-size: 16px;
+                                    letter-spacing: 1px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                    position: relative;
+                                    bottom: 0;
+                                    height: auto;
+                                }
+                                
+                                .footer .footer-content {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    gap: 30px;
+                                }
+                                
+                                .footer .footer-column {
+                                    flex: 1;
+                                    min-width: 250px;
+                                    max-width: 300px;
+                                }
+                                
+                                .footer h3 {
+                                    font-size: 20px;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .footer p, .footer ul {
+                                    font-size: 14px;
+                                    line-height: 1.6;
+                                }
+                                
+                                .footer ul {
+                                    list-style-type: none;
+                                    padding: 0;
+                                }
+                                
+                                .footer ul li a {
+                                    text-decoration: none;
+                                    color: #fff;
+                                    transition: color 0.3s;
+                                }
+                                
+                                .footer ul li a:hover {
+                                    color: #c68a53;
+                                }
+                                
+                                .footer .social-icons a {
+                                    margin: 0 15px;
+                                    font-size: 22px;
+                                    color: #fff;
+                                    transition: color 0.3s;
+                                }
+                                
+                                .footer .social-icons a:hover {
+                                    color: #c68a53;
+                                    transform: scale(1.2);
+                                }
+                                
+                                .footer form input[type="email"] {
+                                    padding: 10px;
+                                    width: 80%;
+                                    border: none;
+                                    border-radius: 5px;
+                                    margin-right: 10px;
+                                }
+                                
+                                .footer form button {
+                                    padding: 10px 20px;
+                                    background-color: #c68a53;
+                                    border: none;
+                                    color: white;
+                                    font-size: 16px;
+                                    border-radius: 5px;
+                                    cursor: pointer;
+                                    transition: background-color 0.3s;
+                                }
+                                
+                                .footer form button:hover {
+                                    background-color: #8c603d;
+                                }
+                                
+                                .footer .footer-bottom {
+                                    text-align: center;
+                                    margin-top: 20px;
+                                }
+                                
+                                .footer .footer-bottom p {
+                                    font-size: 14px;
+                                }
+                                
+                                .footer .footer-column input[type="email"] {
+                                    margin-bottom: 10px;
+                                }
+                                .content {
+                                    flex: 1; /* Ensures content area takes up the remaining space */
+                                }
+                                
+                                .footer {
+                                    margin-top: auto; /* This pushes the footer to the bottom */
+                                }
+                                
+                                /* Footer Bottom */
+                                .footer-bottom {
+                                    background-color: #5b3a29;
+                                    padding: 15px;
+                                }
