@@ -311,6 +311,7 @@ p {
                                     justify-content: center;
                                     flex-direction: column;
                                     height: 70vh;
+                                    position: relative;
                                 }
                                 .contact-info-upper-container{
                                     display: flex;
@@ -340,112 +341,11 @@ p {
                                     height: 1.9rem;
                                 }
                                 /* footer section  */
-                                .footer {
-                                    background-color: #ffffff;
-                                    color: #050505;
-                                    padding: 40px;
-                                    font-size: 16px;
-                                    letter-spacing: 1px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-between;
-                                    position: relative;
-                                    bottom:-10;
-                                    height: auto;
+                                #footer{
+                                    height: 28vh;
+                                    margin: 0 1rem ;
+                                    position:relative;
                                 }
-                                
-                                .footer .footer-content {
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                    justify-content: space-between;
-                                    gap: 30px;
-                                }
-                                
-                                .footer .footer-column {
-                                    flex: 1;
-                                    min-width: 250px;
-                                    max-width: 300px;
-                                }
-                                
-                                .footer h3 {
-                                    font-size: 20px;
-                                    margin-bottom: 10px;
-                                }
-                                
-                                .footer p, .footer ul {
-                                    font-size: 14px;
-                                    line-height: 1.6;
-                                }
-                                
-                                .footer ul {
-                                    list-style-type: none;
-                                    padding: 0;
-                                }
-                                
-                                .footer ul li a {
-                                    text-decoration: none;
-                                    color: #000000;
-                                    transition: color 0.3s;
-                                }
-                                
-                                .footer ul li a:hover {
-                                    color: rgb(163, 163,163);
-                                }
-                                
-                                .footer .social-icons a {
-                                    margin: 0 15px;
-                                    font-size: 22px;
-                                    color: #040303;
-                                    transition: color 0.3s;
-                                }
-                                
-                                .footer .social-icons a:hover {
-                                    color: rgb(163, 163,163);
-                                    transform: scale(1.2);
-                                }
-                                
-                                .footer form input[type="email"] {
-                                    padding: 10px;
-                                    width: 80%;
-                                    border: rgb(53,53,53)0.1rem solid ;
-                                    border-radius: 50px;
-                                    margin-right: 10px;
-                                    
-                                }
-                                
-                                .footer-column button {
-                                    padding: 10px 20px;
-                                    background: #fff9f9;
-                                    border-color: rgb(163, 163,163) 1rem solid;
-                                    border:rgb(53, 53,53)0.1rem solid;
-                                    color: rgb(0, 0, 0);
-                                    font-size: 16px;
-                                    border-radius: 50px;
-                                    cursor: pointer;
-                                    transition: background-color 0.3s;
-                                }
-                                
-                                .footer form button:hover {
-                                    background: #000000;
-                                    color:#ffffff;
-                                }
-                                
-                                .footer .footer-bottom {
+                                footer p{
                                     text-align: center;
-                                    margin-top: 20px;
-                                }
-                                
-                                .footer p {
-                                    font-size: 14px;
-                                }
-                                
-                                .footer .footer-column input[type="email"] {
-                                    margin-bottom: 10px;
-                                }
-                                .content {
-                                    flex: 2 ; /* Ensures content area takes up the remaining space */
-                                }
-                                
-                                .creation{
-                                    margin-top: auto; /* This pushes the footer to the bottom */
                                 }
